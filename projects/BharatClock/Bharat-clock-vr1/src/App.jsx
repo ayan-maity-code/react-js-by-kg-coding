@@ -4,7 +4,7 @@ import ClockTime from "./components/ClockDate";
 function App() {
   return (
     <>
-      <ClockName />
+      <ClockNae />
       <ClockSlogan />
       <ClockTime />
     </>
