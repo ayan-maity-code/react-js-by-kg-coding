@@ -1,7 +1,8 @@
 import React from "react";
 import FoodItems from "./Components/FoodItem";
-import "./App.css";
+import "./index.css";
 import ErrorMesage from "./Components/ErrorMsg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   let foodItems = ["Dal", "Roti", "Salad", "Vegetables"];
@@ -12,7 +13,7 @@ function App() {
   return (
     // <React.Fragment>
     <>
-      <h1>Healthy food</h1>
+      <h1 className="food-heading">Healthy food</h1>
       <ErrorMesage items = {foodItems}></ErrorMesage>
       <FoodItems itemss={foodItems}></FoodItems>
     </>
